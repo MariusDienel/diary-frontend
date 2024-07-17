@@ -1,5 +1,5 @@
-import {Component, Injector, OnInit, signal, Signal, WritableSignal} from '@angular/core';
-import {DatePipe, NgFor, NgForOf} from "@angular/common";
+import {Component, Injector, OnInit, signal, Signal} from '@angular/core';
+import {DatePipe, NgForOf} from "@angular/common";
 import {DiaryEntry} from "../../models/diaryEntry";
 import {DiaryService} from "../../services/diary.service";
 import {toSignal} from "@angular/core/rxjs-interop";
