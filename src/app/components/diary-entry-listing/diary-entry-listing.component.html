@@ -1,0 +1,6 @@
+<ng-container *ngFor="let diaryEntry of diaryEntries()">
+  <div>
+    <h4>{{diaryEntry.date | date: 'dd.MM.yyyy' }} - {{diaryEntry.title}}</h4>
+    <p>{{diaryEntry.content}}</p>
+  </div>
+</ng-container>
